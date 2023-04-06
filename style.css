@@ -17,22 +17,24 @@ header {
 }
 
 .logo {
-    margin: 1em 7em;
+    margin: 1em 5em;
 }
 
 .logo>h2 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav{
     display: flex;
-    /* margin: 1em 7em; */
+    margin: 0 5em;
 }
 
 .flag {
-    max-width: 4em;
+    max-width: 2em;
+    height: 1.3em;
+    margin: 1em 0.6em 0;
 }
 
 .whatsapp {
@@ -42,5 +44,64 @@ nav{
 nav>div {
     margin-right: 2em;
     border-right: 1px solid #fff;
-    padding: 0 1em 2em;
+    padding: 1em 1em 0;
+}
+
+.customer-care {
+    display: flex;
+}
+.customer-care>img {
+    max-width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.customer-details {
+background-color: #084482;
+padding: 2em 8em;
+border-radius: 8em;
+margin-left: -9em;
+font-size: 0.2rem;
+}
+
+.customer-details>p:first-child{
+    color: #00aeff;
+}
+.customer-details>p:last-child {
+    margin: 0.1em 2em;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.currency {
+    display: flex;
+}
+
+.currency p {
+    margin-top: 0.8em;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile>div {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.profile>div>i {
+    color: #00aeff;
+}
+.profile>p {
+    margin-top: 0.5em;
+    color: #fff;
+    margin-left: 0.8em;
+    font-size: 1.4rem;
 }
