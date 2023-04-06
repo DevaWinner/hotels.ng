@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    background-color: #00aeff;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 1em 7em;
+}
+
+.logo>h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    /* margin: 1em 7em; */
+}
+
+.flag {
+    max-width: 4em;
+}
+
+.whatsapp {
+    color: #fff;
+}
+
+nav>div {
+    margin-right: 2em;
+    border-right: 1px solid #fff;
+    padding: 0 1em 2em;
+}
