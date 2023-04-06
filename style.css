@@ -105,3 +105,118 @@ font-size: 0.2rem;
     margin-left: 0.8em;
     font-size: 1.4rem;
 }
+
+.hero>div:first-child {
+    position: relative;
+    background: url(./assets/homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    height:37.6em;
+}
+
+.hero>div:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.hero>div p:first-child {
+    position: absolute;
+    color: #fff;
+    margin: 6em 21em;
+    font-size: 2.6rem;
+    min-width: fit-content;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.hero>div p:last-child {
+    position: absolute;
+    color: #fff;
+    margin: 11.5em 36em;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+
+.hotel-finder {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    margin-top: -4em;
+    margin-left: 35em;
+    padding: 3em 5em;
+    border: 1px solid #9daeb6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.hotel-finder>form>input {
+    width: 22em;
+    height: 2em;
+    padding: 0.2em;
+    border: 1px solid #9daeb6;
+    border-radius: 5px;
+}
+
+.hotel-finder button {
+    padding: 1.1em 3.6em;
+    background-color: #00aeff;
+    border: 1px solid #00aeff;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-top: -10em;
+}
+
+.destination {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.destination p:first-child {
+    font-size: 2em;
+    color: #4f4f4f;
+    font-family: lato;
+    font-weight: bold;
+}
+
+.destination p:last-child {
+    font-size: 1.4em;
+    color: #4f4f4f;
+    font-family: lato;
+    margin: 0.8em;
+}
+
+hr {
+    width: 3.2em;
+    margin: 0 auto;
+    border: 2px solid #00aeff;
+}
+
+.hotels {
+    display: flex;
+    margin-left: 40em;
+    margin-top: 3em;
+}
+
+.hotels>div {
+    border: 2px solid #00aeff;
+    padding: 2em 4em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.hotels>div p:first-child{
+    font-family: lato;
+    font-size: 1.5rem;
+
+}
+
+.hotels>div:hover {
+    color: #fff;
+    background-color: #00aeff;
+    text-align: center;
+}
